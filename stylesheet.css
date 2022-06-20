@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+root {
+  font-family: "Ubuntu",sans-serif;
+}
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: 0;
+  /*overflow: hidden; */
+}
+
+.left-div {
+  flex: 50%;
+  background-color: blue;
+}
+
+.right-div {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
+
+.btn-div {
+  width: 100%;
+}
+
+.pair {
+  display: flex;
+}
+
+label, input {
+  display: block;
+  margin-right: 60px;
+  margin-left: 40px;
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: auto;
+  height: auto;
+  font-size: 1rem;
+}
+
+fieldset {
+  background-color:white;
+}
+
+#introduction {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+#introduction > p {
+  margin-left: 20px;
+}
